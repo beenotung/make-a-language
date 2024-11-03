@@ -1,7 +1,26 @@
 {
-  "name": "pl-sip",
+  "name": "make-a-language",
   "version": "0.0.0",
+  "description": "A programming language implementation built with TDD, demonstrating how to parse source code, generate machine code, and execute it through an interactive REPL interface. The language can be evolved iteratively with more features.",
+  "keywords": [
+    "programming-language",
+    "compiler",
+    "interpreter",
+    "repl",
+    "parser",
+    "tokenizer",
+    "ast",
+    "code-generation",
+    "tdd",
+    "typescript"
+  ],
+  "author": "Beeno Tung <aabbcc1241@yahoo.com.hk> (https://beeno-tung.surge.sh)",
+  "license": "BSD-2-Clause",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "mocha": "ts-mocha *.test.ts",
     "test": "tsc --noEmit",
@@ -9,10 +28,11 @@
     "build": "rimraf dist && tsc -p . && rimraf dist/tsconfig.tsbuildinfo",
     "tsc": "tsc -p ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "dependencies": {
+    "@beenotung/tslib": "^24.1.0",
+    "cli-helpers": "^1.2.0",
+    "npm-init-helper": "^1.6.3"
+  },
   "devDependencies": {
     "@types/chai": "4",
     "@types/mocha": "^10.0.9",
@@ -24,14 +44,5 @@
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.6.3"
-  },
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "dependencies": {
-    "@beenotung/tslib": "^24.1.0",
-    "cli-helpers": "^1.2.0",
-    "npm-init-helper": "^1.6.3"
   }
 }

@@ -1,6 +1,8 @@
 # Make a Programming Language
 
-A programming language implementation built with TDD, demonstrating how to parse source code, generate machine code, and execute it through an interactive REPL interface. The language can be evolved iteratively with more features.
+A programming language implementation built with TDD, demonstrating how to parse source code, generate machine code, and execute it through an interactive REPL interface.
+
+The language can be evolved iteratively with more features.
 
 Live Coding Video Playback: https://youtube.com/live/ULzVRmtWo3U
 

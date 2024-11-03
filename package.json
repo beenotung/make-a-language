@@ -1,7 +1,7 @@
 {
   "name": "make-a-language",
   "version": "0.0.0",
-  "description": "A programming language implementation built with TDD, demonstrating how to parse source code, generate machine code, and execute it through an interactive REPL interface. The language can be evolved iteratively with more features.",
+  "description": "A programming language implementation built with TDD, demonstrating how to parse source code, generate machine code, and execute it through an interactive REPL interface.",
   "keywords": [
     "programming-language",
     "compiler",
